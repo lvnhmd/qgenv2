@@ -1,8 +1,10 @@
 import { Flex } from '@chakra-ui/react';
 
-import CTASection from '~/lib/components/samples/CTASection';
-import SomeImage from '~/lib/components/samples/SomeImage';
-import SomeText from '~/lib/components/samples/SomeText';
+// import CTASection from '~/lib/components/samples/CTASection';
+// import SomeImage from '~/lib/components/samples/SomeImage';
+// import SomeText from '~/lib/components/samples/SomeText';
+
+import CTASection from '~/lib/components/CallToActionWithIllustration';
 
 const Home = () => {
   return (
@@ -15,8 +17,8 @@ const Home = () => {
       mb={8}
       w="full"
     >
-      <SomeText />
-      <SomeImage />
+      {/* <SomeText />
+      <SomeImage /> */}
       <CTASection />
     </Flex>
   );
